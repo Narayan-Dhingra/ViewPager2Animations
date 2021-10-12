@@ -8,11 +8,11 @@
     tools:context=".fragments.EventsFragment">
 
     <TextView
-        android:id="@+id/tv_events"
+        android:id="@+id/tv_tickets"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintVertical_bias=".3"
-        android:text="Events"
+        android:text="Tickets"
         android:textSize="56sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

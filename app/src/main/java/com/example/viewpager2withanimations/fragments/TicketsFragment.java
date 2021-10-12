@@ -12,10 +12,10 @@ import com.example.viewpager2withanimations.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link TicketsFrsgment#newInstance} factory method to
+ * Use the {@link TicketsFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class TicketsFrsgment extends Fragment {
+public class TicketsFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class TicketsFrsgment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public TicketsFrsgment() {
+    public TicketsFragment() {
         // Required empty public constructor
     }
 
@@ -39,8 +39,8 @@ public class TicketsFrsgment extends Fragment {
      * @return A new instance of fragment TicketsFrsgment.
      */
     // TODO: Rename and change types and number of parameters
-    public static TicketsFrsgment newInstance(String param1, String param2) {
-        TicketsFrsgment fragment = new TicketsFrsgment();
+    public static TicketsFragment newInstance(String param1, String param2) {
+        TicketsFragment fragment = new TicketsFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class TicketsFrsgment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tickets_frsgment, container, false);
+        return inflater.inflate(R.layout.fragment_tickets, container, false);
     }
 }
