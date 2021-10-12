@@ -27,7 +27,6 @@ public class ViewFragmentTab extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         init();
-        //
 
     }
 
