@@ -40,8 +40,6 @@ public class ViewFragmentTab extends AppCompatActivity {
 
         new TabLayoutMediator(binding.tabLayout, binding.viewPager,(tab, position) -> tab.setText(titles[position])).attach();
 
-//        new TabLayoutMediator(binding.tabLayout, binding.viewPager, (tab, position) -> tab.setText(titles[position])).attach();
-
     }
 
     private class FragmentPagerAdapter extends FragmentStateAdapter {
