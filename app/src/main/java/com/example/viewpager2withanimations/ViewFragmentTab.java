@@ -44,9 +44,12 @@ public class ViewFragmentTab extends AppCompatActivity {
 
     private class FragmentPagerAdapter extends FragmentStateAdapter {
 
+
         public FragmentPagerAdapter(@NonNull FragmentActivity fragmentActivity) {
             super(fragmentActivity);
         }
+
+
 
         @NonNull
         @Override
